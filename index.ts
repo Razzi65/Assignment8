@@ -21,24 +21,89 @@
 
 // 2. Write a ts program to print all negative elements in an array.
 
-var a:number[] = [-1,-2,-3,4,5,-6,-7]
-var b:number[]=[]
+// var a:number[] = [-1,-2,-3,4,5,-6,-7]
+// var b:number[]=[]
 
-for (var i=0;i<=a.length;i++) {
-    if (a[i]<0) {
-        b.push(a[i])
-    } 
-}
-console.log(b);
+// for (var i=0;i<=a.length;i++) {
+//     if (a[i]<0) {
+//         b.push(a[i])
+//     } 
+// }
+// console.log(b);
 
 
 
 
 // 3. Write a ts program to find sum of all array elements. 
+
+// var a:number[] = [1,2,3,4,5,6]
+// var b:number=0
+
+// for (var i=0;i<=a.length-1;i++) {
+//     b+=a[i]
+    
+// }
+// console.log(b);
+
+
 // 4. Write a ts program to find maximum and minimum element in an array.
+
+// var a:number[] = [5,2,3,4,1,6,34,546,778,896,98,76,88]
+
+// for (var i=0;i<=a.length-1;i++){
+//     if (a[i] > a[i-1])
+// }
+
+
+
+
+
+
+//*****************************************//
+
+// var b:number[] = a.sort()
+// var c:number=0
+// console.log(b);
+
+
+// console.log("Minimum Number is",b[0]);
+
+// for(var i=0;i<=b.length-1;i++){
+  
+//     if(i==b.length-1){
+//         c=b[i];
+//     }
+// }
+// console.log("Maximum number is", c);
+
+
+
+
 // 5. Write a ts program to find second largest element in an array.
+
+
+
 // 6. Write a ts program to count total number of even and odd elements in an array.
+
+// var a:number[] = [5,2,3,4,1,6,34,546,777,896,98,76,88]
+// var b:number=0
+// var c:number=0
+
+// for (var i=0;i<=a.length-1;i++) {
+//     if(a[i]%2==0) {
+//         b++
+//     }
+//     else if (a[i]%2!=0) {
+//         c++;
+        
+//     }
+// }
+// console.log("Total number of Even numbers are", b);
+// console.log("Total number of odd numbers are", c);
+
 // 7. Write a ts program to count total number of negative elements in an array.
+
+
 // 8. Write a ts program to copy all elements from an array to another array.
 // 9. Write a ts program to insert an element in an array.
 // 10. Write a ts program to delete an element from an array at specified position.
