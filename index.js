@@ -82,7 +82,17 @@
 // var e:number[] = [1,2,3,4,5,6]
 // var d = a.concat(b,c,e)
 // console.log(d);
+// var aa:number[]=[]
+// var a = (arr:number[],brr:number[]):number[] => aa.concat(arr,brr)
+// console.log(a([1,2,3],[4,5,6]));
 // 9. Write a ts program to insert an element in an array.
+// var a:number[] = [1,2,3,4,5]
+// var c:number[] = []
+// var b = (aa:number,bb:number):number[] => {
+//    a.push(aa,bb)
+//     return a;
+// }
+// console.log(b(5,8));
 // 10. Write a ts program to delete an element from an array at specified position.
 // 11. Write a ts program to count frequency of each element in an array.
 // 12. Write a ts program to print all unique elements in the array.
