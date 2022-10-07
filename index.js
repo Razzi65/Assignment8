@@ -16,10 +16,10 @@
 // for (var i=0;i<=a.length;i++) {
 //     if (a[i]<0) {
 //         b.push(a[i])
-//     } 
+//     }
 // }
 // console.log(b);
-// 3. Write a ts program to find sum of all array elements. 
+// 3. Write a ts program to find sum of all array elements.
 // var a:number[] = [1,2,3,4,5,6]
 // var b:number=0
 // for (var i=0;i<=a.length-1;i++) {
@@ -28,7 +28,7 @@
 // console.log(b);
 // 4. Write a ts program to find maximum and minimum element in an array.
 // var a:number[] = [5,2,3,4,1,6,34,88,101,-1,77,89,76,88]
-//  a.sort( (aaa,bbb) => (aaa-bbb)) 
+//  a.sort( (aaa,bbb) => (aaa-bbb))
 //  console.log("Maximum value is ", a[0]);
 //  a.sort((aa,bb) => (bb-aa))
 //  console.log("Minimum value is ", a[0]);
@@ -106,7 +106,7 @@
 //             b.push(a[i])
 //             c++
 //         }
-//     } 
+//     }
 // }
 // console.log(b);
 // console.log(c);
@@ -123,16 +123,20 @@
 // console.log("Number of duplicate elements are",b);
 // 14. Write a ts program to delete all duplicate elements from an array.
 ///** Not solved  *///
-// var a:number[] = [1,2,4,4,2,1]
-// console.log(a);
-// for(var i=0;i<=a.length-1;i++) {
-//     for(var j=i+1;j<=a.length-1;j++){
+// var a:number[] = [1,3,2,4,2,1,4,5,6]
+// var b:number [] = []
+// for(var i=0;i<a.length;i++) {
+//     for(var j=i+1;j<a.length;j++){
 //         if(a[i]==a[j]) {
-//             a.splice(a[i],a[j])
+//             b.push(a[i])
+//             // a.splice(a[i],a[j])
 //         }
 //     }
 // }
-// console.log(a);
+// console.log(b);
+// var aa= a.map(a => a*2)
+// var bb = a.map((b) => b%2 )
+// console.log(bb);
 // 15. Write a ts program to merge two array to third array.
 // var a:number[]=[1,2,3,4]
 // var b:number[]=[5,6,7,8]
@@ -175,7 +179,7 @@
 // var aa:number [] = [1,2,3,4,5,6,8,9,5,2,3,11,44,55,22,66]
 // var evenn:number [] = []
 // var oddd:number [] = []
-// var c 
+// var c
 // var a = (b:number[]) => {
 //     for(var i=0;i<b.length;i++) {
 //         if (b[i]%2==0){
@@ -192,4 +196,11 @@
 // }
 // a (aa)
 // 21. Write a ts program to left rotate an array.
+// var a:number[] = [1,3,2,4,2,1,4,5,6]
+// var b:number[] = []
+// for(var i=a.length-1;i>=0;i--) {
+//     b.push(a[i])
+// }
+// console.log(b);
 // 22. Write a ts program to right rotate an array.
+//var a:number[] = [1,3,2,4,2,1,4,5,6]
