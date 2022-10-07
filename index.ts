@@ -48,45 +48,24 @@
 
 // 4. Write a ts program to find maximum and minimum element in an array.
 
-// var a:number[] = [5,2,3,4,1,6,34,88,101,77,89,76,88]
-// var b:number=0
+// var a:number[] = [5,2,3,4,1,6,34,88,101,-1,77,89,76,88]
 
-// for (var i=0;i<=a.length;i++){
-//     for(var j=i+1;j<=a.length;j++) {
-//         if(a[i]>a[j]){
-//             b=a[i]          
-//         }
-//     }
-// }
-// console.log(b)
+//  a.sort( (aaa,bbb) => (aaa-bbb)) 
 
+//  console.log("Maximum value is ", a[0]);
 
-
-
-
-
-
-//*****************************************//
-
-// var b:number[] = a.sort()
-// var c:number=0
-// console.log(b);
-
-
-// console.log("Minimum Number is",b[0]);
-
-// for(var i=0;i<=b.length-1;i++){
-  
-//     if(i==b.length-1){
-//         c=b[i];
-//     }
-// }
-// console.log("Maximum number is", c);
-
-
+//  a.sort((aa,bb) => (bb-aa))
+//  console.log("Minimum value is ", a[0]);
+ 
 
 
 // 5. Write a ts program to find second largest element in an array.
+
+// var a:number [] = [5,2,3,4,1,6,34,546,777,896,98,76,88]
+
+// a.sort((aa,bb) => (bb-aa))
+// console.log("Seond Largest number is", a[1]);
+
 
 
 
@@ -107,6 +86,7 @@
 // }
 // console.log("Total number of Even numbers are", b);
 // console.log("Total number of odd numbers are", c);
+
 
 // 7. Write a ts program to count total number of negative elements in an array.
 //     var a:number[] = [1,5,-6,8,-6,5,-14,-25,-9,45,87]
@@ -296,11 +276,44 @@
 
 // 19. Write a ts program to sort array elements in ascending or descending order.
 
-// var a:number[] = [1,2,3,4,5,6,7,8,9,10,11,12]
 
-// a.sort(c,d) => (c-d)
+// var aa:number[]=[3,4,6,2,2,2,54,223,3,23,23,23,2]
+
+// aa.sort ((a,b) => (a-b))
+// console.log("ascending order", aa);
+
+// aa.sort((a,b) => (b-a))
+// console.log("Descending order", aa);
+
+
+
 
 
 // 20. Write a ts program to sort even and odd elements of array separately.
+
+// var aa:number [] = [1,2,3,4,5,6,8,9,5,2,3,11,44,55,22,66]
+
+// var evenn:number [] = []
+// var oddd:number [] = []
+// var c 
+
+// var a = (b:number[]) => {
+//     for(var i=0;i<b.length;i++) {
+//         if (b[i]%2==0){
+//             evenn.push(b[i])
+//         }
+//         else {
+//             oddd.push(b[i])
+//         }
+//     }
+//     evenn.sort((aaa,bbb)=>(aaa-bbb))
+//     oddd.sort((aa,bb)=>(aa-bb))
+//     c=console.log("even numbers", evenn, "odd numbers",oddd);
+//     return c;
+// }
+
+// a (aa)
+
+
 // 21. Write a ts program to left rotate an array.
 // 22. Write a ts program to right rotate an array.
